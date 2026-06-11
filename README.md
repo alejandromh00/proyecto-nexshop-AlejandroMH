@@ -49,25 +49,7 @@ mi-proyecto-nexshop/
 **Tablas principales:** `Sede`, `Empleado`, `Cliente`, `Direccion`, `Categoria`, `Subcategoria`, `Producto`, `HistoricoPrecioProducto`, `Proveedor`, `ProductoProveedor`, `Promocion`, `PromocionProducto`, `StockUbicacion`, `PedidoOnline`, `LineaPedidoOnline`, `Envio`, `VentaPresencial`, `LineaVentaPresencial`, `DevolucionPresencial`, `TransferenciaStock`, `Ticket`, `Valoracion`, `MovimientoPuntos`
 
 
----
 
-## 🔍 Ejecutar las consultas
-
-1. Abre `consultas/consultas.sql` en Workbench.
-2. Asegúrate de que la base de datos está seleccionada (`USE nexshop;` ya incluido al inicio del archivo).
-3. Puedes ejecutar el archivo completo con **⚡** o seleccionar una consulta concreta y ejecutar solo esa selección con `Ctrl+Enter`.
-
----
-
-## 📊 Diagrama ER
-
-El diagrama completo está en `docs/diagrama_er.pdf` (formato A3 apaisado, vectorial).
-
-Vista previa:
-
-![Diagrama ER NexShop](docs/diagrama_er_preview.png)
-
-> Si no se carga la imagen, abre directamente `docs/diagrama_er.pdf`.
 
 ---
 
