@@ -48,29 +48,6 @@ mi-proyecto-nexshop/
 
 **Tablas principales:** `Sede`, `Empleado`, `Cliente`, `Direccion`, `Categoria`, `Subcategoria`, `Producto`, `HistoricoPrecioProducto`, `Proveedor`, `ProductoProveedor`, `Promocion`, `PromocionProducto`, `StockUbicacion`, `PedidoOnline`, `LineaPedidoOnline`, `Envio`, `VentaPresencial`, `LineaVentaPresencial`, `DevolucionPresencial`, `TransferenciaStock`, `Ticket`, `Valoracion`, `MovimientoPuntos`
 
----
-
-## ▶️ Cómo importar la base de datos
-
-### Requisitos previos
-- **XAMPP** con el módulo MySQL en ejecución
-- **MySQL Workbench** instalado
-
-### Pasos
-
-1. Abre MySQL Workbench y conéctate a `localhost` (usuario `root`, contraseña vacía).
-
-2. Ve a **File → Open SQL Script** y abre `sql/schema.sql`. Pulsa el botón **⚡ Execute** (`Ctrl+Shift+Enter`).  
-   Esto crea la base de datos `nexshop` con las 23 tablas.
-
-3. Repite el proceso con `sql/datos.sql` para cargar todos los datos de prueba.
-
-4. Verifica que todo funciona ejecutando:
-   ```sql
-   USE nexshop;
-   SELECT * FROM Producto;
-   ```
-   Deberías ver los 20 productos del catálogo.
 
 ---
 
